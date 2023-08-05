@@ -14,9 +14,9 @@
 // BigInt]
 
 
-let id = Symbol("123")
-let anotherid = Symbol("123")
-console.log(id == anotherid);
+// let id = Symbol("123")
+// let anotherid = Symbol("123")
+// console.log(id == anotherid);
 
 // Reference (non Primity )
 
@@ -24,3 +24,33 @@ console.log(id == anotherid);
 
 
 
+// ---------------MEMORY ----------------
+
+// we have two types of meory  
+
+    // stack(primity )   => we have copy of data not actual data 
+
+    //  heap(non primity)  =>we have original of data 
+
+
+
+// Here , copy of the variable is given to varTwo of vaeOne(Primitve(stack))
+// let varOne = "khan";
+// let varTwo = varOne;
+
+// varTwo="aqib ahmad khan"
+// console.log(varOne);
+// console.log(varTwo);
+
+
+// Here , original value is given to offdata2 of offdata(heap)
+
+// let offdata ={
+//     name:"a khan",
+//     Email:"aqib@gmail.com"
+// }
+
+// let offdata2= offdata;
+// offdata2.name="Danish khan"
+// console.log(offdata);
+// console.log(offdata2);
