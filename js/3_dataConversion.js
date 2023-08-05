@@ -22,4 +22,46 @@
 // "khan"=>true
 
 
+// --------------operations ---------
+
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue);
+// console.log(1+1);
+// console.log(1-1);
+// console.log(1*1);
+// console.log(1/1);
+// console.log(1%1);
+// console.log(1**1);
+
+
+
+// console.log("1"+1);
+// console.log("1"+1);
+// console.log(1+5 +"2");
+// console.log(+true);
+
+
+
+
+
+// ------------postfix and prefix -----------
+
+// value is increased and then return 
+// let a =10;
+// let b = ++a;
+// console.log(a);
+// console.log(b);
+
+
+// it return  value then increase 
+// let a2 =10;
+// let b2 = a2++;
+// console.log(a2);
+// console.log(b2);
+
+
+
+
 
