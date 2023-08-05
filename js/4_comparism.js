@@ -54,3 +54,12 @@
 // offdata2.name="Danish khan"
 // console.log(offdata);
 // console.log(offdata2);
+
+let strg = "     khan    ";
+console.log(strg);
+console.log(strg.trim());
+
+let data  = "https://khan.com/htsh%20khan";
+console.log(data.replace('%20' , '_'));
+// console.log(data.includes('khana'));
+console.log(data.split('khan'));
